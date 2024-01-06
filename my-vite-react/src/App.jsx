@@ -1,9 +1,17 @@
+import Basics from "./Basic"
 
 function App() {
 
 
   return (
-<h1>Alan with vite react</h1>
+    <div>
+        <Basics />
+     <h1>USe the values</h1>
+     <p>Inside a div we can insert as many elements we want </p>
+    
+    </div> 
+   
+   
   )
 }
 
