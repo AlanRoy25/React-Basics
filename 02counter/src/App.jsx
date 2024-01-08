@@ -12,8 +12,6 @@ const addValue = () =>{
 else{
   setCounter(prevCounter => prevCounter +1) // here we have used a call back function 
   setCounter(prevCounter => prevCounter +1)
-  setCounter(prevCounter => prevCounter +1)
-  setCounter(prevCounter => prevCounter +1)
 
 }
   }
