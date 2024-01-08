@@ -10,7 +10,10 @@ const addValue = () =>{
     console.log("Cant go above 20");
   }
 else{
-  setCounter(Counter+1)
+  setCounter(prevCounter => prevCounter +1) // here we have used a call back function 
+  setCounter(prevCounter => prevCounter +1)
+  setCounter(prevCounter => prevCounter +1)
+  setCounter(prevCounter => prevCounter +1)
 
 }
   }
