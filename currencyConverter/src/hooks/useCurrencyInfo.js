@@ -9,10 +9,9 @@ function UseCurrencyInfo(currency){
     .then((res) => { 
       setData(res[currency])
     setOptions(Object.keys(res[currency]));
-      console.log(data);
     });
-  }, [currency])
-    console.log(data);
+  }, [currency, data])
+    //console.log(data);
     return {data, options};
   }    
 
