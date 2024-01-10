@@ -1,3 +1,3 @@
-import Inputbox from './Inputbox'
+import InputBox from './InputBox.jsx'
 
-export {Inputbox}
+export {InputBox}
