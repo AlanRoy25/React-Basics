@@ -42,3 +42,6 @@ function App() {
 }
 
 export default App
+ 
+
+//remember to change in tailwind config js
