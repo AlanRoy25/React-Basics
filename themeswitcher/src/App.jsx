@@ -45,3 +45,10 @@ export default App
  
 
 //remember to change in tailwind config js
+
+
+const json = '{ "fruit": "pineapple", "fingers": 10 }';
+console.log(typeof json);
+const obj = JSON.parse(json);
+console.log(typeof obj);
+console.log(obj.fruit, obj.fingers);
