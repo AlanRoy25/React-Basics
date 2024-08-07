@@ -1,7 +1,8 @@
 import React from 'react'
 
-function Card({username , btntxt = "always check me"}) // setting the props as username nd btn 
-{
+function Card({username , btntxt = "always check me", someobj}) // setting the props as username nd btn 
+{console.log(username)
+
   return (
     <>
     <div className="relative h-[400px] w-[300px] rounded-md">
@@ -18,7 +19,7 @@ function Card({username , btntxt = "always check me"}) // setting the props as u
       debitis?
     </p>
     <button className="mt-2 inline-flex cursor-pointer items-center text-sm font-semibold text-white">
-      {btntxt}
+      {btntxt}, {someobj}
     </button>
   </div>s
 </div>
