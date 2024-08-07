@@ -1,0 +1,11 @@
+.star-rating{
+  background-color: chocolate;
+}
+
+.active{
+  color: yellow
+}
+
+.inactive{
+  color: white;
+}
